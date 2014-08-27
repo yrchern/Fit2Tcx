@@ -25,8 +25,8 @@ TcxCreator::TcxCreator() {
     this->productId = "625";     // A random product id found on the web for the Edge 705
     this->versionMajor = "0";
     this->versionMinor = "0";
-    this->buildMajor = "";
-    this->buildMinor = "";
+    this->buildMajor = "0";     // Set to "0" to force output of BuildMajor/BuildMinor so
+    this->buildMinor = "0";     // the file can be uploaded to Garmin Connect as of Aug 27, 2014
 }
 
 TcxCreator::~TcxCreator() {
